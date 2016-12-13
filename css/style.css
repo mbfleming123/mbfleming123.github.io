@@ -237,3 +237,12 @@ img {
   left: 60px;
   top: 80px;
 }
+
+
+#print{
+  position: relative;
+  left: 40px;
+  top: 1920px;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+        }
