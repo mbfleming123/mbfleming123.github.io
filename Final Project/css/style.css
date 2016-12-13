@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat|Montserrat+Alternates|Norican');
+
+body {
+  width: 960px;
+  background-color: rgb(247,255,253);
+}
+
+#trees {
+    width: 100px;
+    overflow: hidden;
+    position: relative;
+    bottom: 23px;
+    right: 10px;
+    float: left;
+    margin-left: 0px;
+    z-index: 5;
+}
+
+nav ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(105, 162, 253);
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    width: 955px;
+    z-index: 10;
+    padding: 10px;
+  }
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+nav a {
+  color:#222;
+  text-decoration:none;
+}
+
+nav a:visited {
+  color:white;
+}
+
+nav a:hover {
+  background-color: rgb(121,133,179);
+}
+
+a {
+    color: rgb(105, 162, 253);
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+  background-color: rgb(121,133,179);
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    position: relative;
+    top: 8px;
+}
+
+h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  font family: "Abel", sans-serif;
+  font-size: 20px;
+  color: rgb(105, 162, 253);
+}
+
+
+#rcopy {
+  width: 800px;
+  position: relative;
+  bottom:25px;
+  float: right;
+}
+
+#box01 {
+  float:left;
+  position: relative;
+  width: 360px;
+    }
+
+#box02 {
+  width: 360px;
+  position: relative;
+  margin-left: 10px;
+  float:right;
+}
+
+#text {
+    font-family: "Abel", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+#design {
+    width: 790px;
+     position: relative;
+     right: 40px;
+     top: 25px;
+    float: right;
+  }
+
+#design1 {
+    position: relative;
+    left: 15px;
+    float: left;
+    width: 310px;
+      }
+
+#design2 {
+    position: relative;
+    right: 40px;
+    float: right;
+    width: 310px;
+    }
+
+#db1 {
+    position: relative;
+    width: 310px;
+    background-color: rgb(191, 195, 205);
+    padding: 1px 20px 20px;
+   }
+
+#db2 {
+  position: relative;
+  width: 310px;
+  margin-top: 25px;
+  background-color: rgb(191, 195, 205);
+  padding: 1px 20px 20px;
+        }
+
+#db3 {
+    position: relative;
+    width: 310px;
+    background-color: rgb(191, 195, 205);
+    padding: 1px 20px 20px;
+            }
+
+#db4 {
+    position: relative;
+    width: 310px;
+    margin-top: 25px;
+    background-color: rgb(191, 195, 205);
+    padding: 1px 20px 20px;
+              }
