@@ -92,6 +92,58 @@ ul {
   font-size: 17px;
 }
 
+#me {
+  position: relative;
+  top: 35px;
+  left: 8px;
+  width: 810px;
+  float: right;
+}
+#pic {
+  position: absolute;
+  right: 3px;
+}
+
+img {
+  border: 2px solid black;
+}
+
+#hello {
+  z-index: 10;
+  position: relative;
+  bottom: 30px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 36px;
+}
+
+#about {
+    z-index: 10;
+    position: relative;
+    bottom: 55px;
+    font-family: "Abel", sans-serif;
+    font-size: 19px;
+}
+
+#name {
+  z-index: 10;
+  position: relative;
+  bottom: 70px;
+  text-indent: 45px;
+  font-family: "Norican", cursive;
+  font-size: 50px;
+}
+
+#mb {
+  line-height: 5px;
+}
+
+#contact {
+  position: absolute;
+  top: 835px;
+  left: 140px;
+  display: inline;
+}
+
 #rcopy {
   width: 800px;
   position: relative;
