@@ -183,21 +183,14 @@ img {
   display: inline;
 }
 
-#rcopy {
-  width: 800px;
-  position: relative;
-  bottom:5px;
-  float: right;
-}
-
 #box01 {
   float:left;
   position: relative;
-  width: 360px;
+  width: 400px;
     }
 
 #box02 {
-  width: 360px;
+  width: 400px;
   position: relative;
   margin-left: 10px;
   float:right;
