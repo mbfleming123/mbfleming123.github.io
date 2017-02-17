@@ -5,7 +5,7 @@ body {
   background-color: rgb(247,255,253);
 }
 
-header {
+#bar {
   width: 1000px;
   display: flex;
   padding: 10px;
@@ -63,6 +63,8 @@ nav ul {
     width: 1000px;
     z-index: 10;
     padding: 5px;
+    color: black;
+
   }
 
 nav li {
@@ -73,9 +75,7 @@ nav li {
 
 nav a {
   text-decoration:none;
-}
-
-
+  color: black;
 }
 
 nav a:hover {
@@ -96,14 +96,18 @@ a:hover {
 }
 
 h1 {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Handlee", sans-serif;
     position: relative;
-    top: 8px;
+    bottom: 70px;
+    left: 25px;
+    font-size: 40px;
+    width: 300px;
 }
 
 h2 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 25px;
+  padding: 10px;
 }
 
 h3 {
@@ -111,7 +115,6 @@ h3 {
   font-size: 20px;
   color: rgb(105, 162, 253);
   position: relative;
-  top: 15px;
 }
 
 h4 {
@@ -186,13 +189,19 @@ img {
 #box01 {
   float:left;
   position: relative;
-  width: 400px;
+  left: 50px;
+  bottom: 90px;
+  width: 450px;
+  margin-left: 10px;
     }
 
 #box02 {
-  width: 400px;
+  width: 450px;
   position: relative;
-  margin-left: 10px;
+  margin-left: 20px;
+  left: 5px;
+  bottom: 90px;
+  right: 70px;
   float:right;
 }
 
@@ -200,14 +209,15 @@ img {
     font-family: "Abel", sans-serif;
     font-size: 18px;
     line-height: 23px;
+    bottom: 50px;
     position: relative;
   }
 
 #headline {
   position: relative;
-  top: 25px;
+  bottom: 85px;
   background-color: rgb(197, 197, 197);
-  padding: 2px;
+  padding: 1px;
 }
 
 #design {
@@ -270,6 +280,56 @@ img {
   top: 80px;
 }
 
+#navwriting {
+  position: relative;
+  bottom: 17px;
+}
+
+#w1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.dropdown {
+    position: relative;
+    bottom: 95px;
+    display: inline-block;
+}
+
+.dropdown-content {
+  left: 0;
+    display: none;
+     position: relative;
+     min-width: 175px;
+     z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.dropbtn {
+    background-color: rgb(105, 162, 253);
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 860px;
+    font-size: 18px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(105, 162, 253);
+    color: white;
+    bottom: 18px;
+
+  }
 
 #print{
   position: relative;
