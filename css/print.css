@@ -1,6 +1,4 @@
-#trees {
-    width: 1px;
-}
+nav
 
 h1 {
   font-family: sans-serif;
@@ -34,17 +32,11 @@ ul {
   font-size: 10px;
 }
 
-#rcopy {
-  width: 930px;
-  position: relative;
-  bottom:5px;
-  float: right;
-}
-
 #box01 {
   float:left;
   position: relative;
   width: 460px;
+  bottom: 180px;
     }
 
 #box02 {
@@ -52,4 +44,13 @@ ul {
   position: relative;
   margin-left: 10px;
   float:right;
+  bottom: 180px;
 }
+
+nav ul {
+    display: none;
+  }
+
+  #print {
+    display: none;
+  }
