@@ -34,14 +34,21 @@ footer {
 }
 
 #sections {
-  width: 400px;
+  width: 100%;
   position: relative;
   float: center;
   margin: 20px;
-  left: 220px;
+  left: 26%;
   bottom:75px;
 
 }
+
+  #title:hover {opacity: 0.7;}
+  #section1:hover {opacity: 0.7;}
+  #section2:hover {opacity: 0.7;}
+  #section3:hover {opacity: 0.7;}
+  #section4:hover {opacity: 0.7;}
+  #section5:hover {opacity: 0.7;}
 
 #about {
   width: 1000px;
@@ -51,16 +58,16 @@ footer {
 
 
 nav ul {
+    width: 1000px;
+    position: relative;
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
-    position: relative;
     right: 13px;
     bottom: 105px;
     list-style-type: none;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
-    width: 1000px;
     z-index: 10;
     padding: 5px;
     color: black;
@@ -92,7 +99,6 @@ a:visited {
 }
 
 a:hover {
-  background-color: rgb(121,133,179);
 }
 
 h1 {
@@ -133,14 +139,14 @@ ul {
   font-size: 14px;
 }
 
-#mb {
+#about {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 23px;
   position: relative;
-  width: 1000px;
-  bottom: 70px;
-  left: 30px;
+  width: 564px;
+  bottom: 50px;
+  left: 15px;
   text-indent: 35px;
 }
 
@@ -159,7 +165,9 @@ ul {
 #pic {
   position: relative;
   float: right;
-  bottom: 80px;
+  bottom: 50px;
+  right: 1px;
+
 
 }
 
@@ -168,28 +176,10 @@ img {
   border: 1.5px solid rgb(230,229,231);
 }
 
-#hello {
-  position: relative;
-  left: 30px;
-  bottom: 40px;
-  font-family: "Handlee", sans-serif;
-  font-size: 45px;
-}
 
-#name {
-  position: relative;
-  bottom: 70px;
-  text-indent: 3px;
-  font-family: "Norican", cursive;
-  font-size: 50px;
-}
-
-
-#contact {
-  position: absolute;
-  top: 835px;
-  left: 140px;
-  display: inline;
+#mee {
+position: relative;
+float: left;
 }
 
 #box01 {
@@ -197,18 +187,19 @@ img {
   position: relative;
   left: 50px;
   bottom: 115px;
-  width: 450px;
-  margin-left: 10px;
+  width: 45%;
+  margin-left: 15px;
     }
 
 #box02 {
-  width: 450px;
+  width: 45%;
   position: relative;
   margin-left: 20px;
   left: 5px;
   bottom: 115px;
   right: 70px;
   float:right;
+  margin-right: 40px;
 }
 
 #text {
@@ -285,12 +276,6 @@ img {
     padding: 1px 20px 20px;
       }
 
-#photo {
-  width: 805px;
-  overflow: scroll;
-  position: relative;
-  left: 60px;
-  top: 80px;
 }
 
 #navwriting {
@@ -306,6 +291,7 @@ img {
 .dropdown {
     position: relative;
     bottom: 80px;
+    width: 1000px;
     display: inline-block;
 }
 
@@ -334,6 +320,7 @@ img {
     text-align: right;
     border: none;
     cursor: pointer;
+    width: 1000px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -347,7 +334,163 @@ img {
 #print{
   position: relative;
   left: 40px;
-  top: 1670px;
-  font-family: "Montserrat", sans-serif;
+  top: 115px;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
+        }
+
+        #contact {
+          position: relative;
+          display: inline;
+          font-family: "Open Sans", sans-serif;
+          right:300px;
+          top: 150px;
+          font-size: 16px;
+        }
+
+#email {
+  position: relative;
+  right: 400px;
+  top: 200px;
+}
+
+#photo {
+    background-color: rgb(105, 162, 253);
+    width: 93%;
+    margin:: 30px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    bottom: 30px;
+        }
+  #myImg {
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+        }
+  #myImg2 {
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+        }
+  #myImg3 {
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+        }
+  #myImg4 {
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+        }
+   #myImg5 {
+          border-radius: 30px;
+          cursor: pointer;
+          transition: 0.3s;
+          position: relative;
+              }
+    #myImg6 {
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+     position: relative;
+          }
+    #myImg7 {
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+                }
+   #myImg8 {
+    border-radius: 30px;
+    cursor: pointer;
+   transition: 0.3s;
+    position: relative;
+            }
+    #myImg9 {
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+           }
+
+  #myImg:hover {opacity: 0.7;}
+  #myImg2:hover {opacity: 0.7;}
+  #myImg3:hover {opacity: 0.7;}
+  #myImg4:hover {opacity: 0.7;}
+  #myImg5:hover {opacity: 0.7;}
+  #myImg6:hover {opacity: 0.7;}
+  #myImg7:hover {opacity: 0.7;}
+  #myImg8:hover {opacity: 0.7;}
+  #myImg9:hover {opacity: 0.7;}
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            top: 5px;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 50%;
+            max-width: 700px;
+        }
+
+
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        .modal-content, #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {-webkit-transform:scale(0)}
+            to {-webkit-transform:scale(1)}
+        }
+
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }

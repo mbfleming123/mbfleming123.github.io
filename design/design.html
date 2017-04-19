@@ -31,6 +31,40 @@
     </ul>
   </div>
 </div>
+<main>
+  <div id="design">
+    <img id="myDesign" src="teacups.jpg" alt="Tea Cups" width="300" height="400">
+    <img id="myDesign2" src="fjords.jpg" alt="Norwegian Fjords" width="400" height="400">
+    <img id="myDesign3" src="stair2.jpg" alt="Spiral Staircase" width="300" height="400">
+    <img id="myDesign4" src="maggie.jpg" alt="Flipped" width="400" height="400">
+    <img id="myDesign5" src="london.jpg" alt="Oxford Circus" width="700" height="400">
+    <img id="myDesign6" src="tube2.jpg" alt="Underground Reflection" width="230" height="400">
+    <img id="myDesign7" src="door.jpg" alt="Shattered Door" width="230" height="400">
+    <img id="myDesign8" src="tube.jpg" alt="London Underground" width="230" height="400">
+    <img id="myDesign9" src="croatia.jpg" alt="Dubrovnik" width="450" height="400">
+</div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+  <script>
+  var modal = document.getElementById('myModal');
+
+
+  var img = document.getElementById('myImg');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+  }
+
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
   </header>
       <div id="design">
         <div id="design1">
