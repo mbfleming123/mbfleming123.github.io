@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mary Bryant Fleming</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+<body>
+  <div id="titlez" onclick="titleFunction()">
+    <p>Welcome</p>
+    <h1>Mary Bryant Fleming</h1>
+    <p>Click to view portfolio</p>
+  </div>
+  <div id="sections">
+    <div class="area1" id="section1"><img src="aboutme.jpg" alt="About Me" />
+    <div class="word1">
+      <h4>About Me<h4>
+    </div>
+    </div>
+    <div class="area2" id="section2"><a href="resume.html"><img src="resume.jpg" alt="Resume" /></a>
+    <div class="word2">
+      <h4>Resume<h4>
+    </div>
+    </div>
+    <div class="area3" id="section3"><a href="writingsamples.html"><img src="writingsamples.jpg" alt="Writing" /></a>
+      <div class="word3">
+        <h4>writing<h4>
+      </div>
+      </div>
+    <div class="area4" id="section4"><a href="design.html"><img src="designsamples.jpg" alt="Design" /></a>
+      <div class="word4">
+        <h4>Design<h4>
+      </div>
+      </div>
+    <div class="area5" id="section5"><a href="photo.html"><img src="photography.jpg" alt="Photography" /></a>
+      <div class="word5">
+      <h4>Photography<h4>
+    </div>
+    </div>
+  </div>
+</body>
+<script src="jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+var title = document.getElementById("titlez");
+title.onclick = function() {
+  title.style.display = "none";
+};
+
+function dropFunction() {
+  var dropCont = document.getElementById("dropCont1")
+  dropCont.style.display = block;
+}
+
+</script>
+</html>
