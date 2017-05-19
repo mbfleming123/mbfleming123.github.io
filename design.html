@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Writing</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+<body>
+  <div id="backimg">
+    <img src="bb.jpg" alt="Background">
+  </div>
+  <nav>
+    <ul>
+      <li><a href=index.html>Home</a></li>
+      <li><a href=aboutme.html>About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="writingsamples.html">Writing Samples</a></li>
+      <li>Design Samples</li>
+      <li><a href="photo.html">Photography</a></li>
+    </ul>
+  </nav>
+  <h2>Design Samples</h2>
+  <div id=designbody>
+    <div id="dtxt"><h3>Below are a few of the design pieces I created in my public relations classes at the University of Miami.</h3></div>
+  <div id="dsamps">
+    <p class="dhead">Flyer</p>
+  <img id="flyer" src="nsahflyer.jpg" alt="Flyer created for National Salute to America's Heroes" width="400"/>
+    <p class="dhead">E-Vite</p>
+  <img id="evite" src="evitereal.jpg" alt="E-Vite created for UM Challah for Hunger's event 'Challoween'" width="400"/>
+    <p class="dhead">Poster</p>
+  <img id="poster" src="posternsahone.jpg" alt="Poster created for National Salute to America's Heroes" width="400"/>
+    <p class="dhead">Infographics</p>
+  <img id="infoone" src="boxinginfographic.jpg" alt="Infographic created for the University of Miami Boxing Club" width="400"/>
+  <img id="infotwo" src="otherapplefinal.png" alt="Infographic created for UM Challah for Hunger's Newsletter" width="400"/>
+  <p class="dhead">Brochure</p>
+  <img id="brochure" src="cbdesing22.jpg" alt="Brochure created for UM Challah for Hunger" width="150" height="300"/>
+  <img id="brochure2" src="cblastone2.jpg" alt="Brochure created for UM Challah for Hunger" width="250" height="300"/>
+  <img id="brochure3" src="cbpone.jpg" alt="Brochure created for UM Challah for Hunger" width="400" />
+  </div>
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <div id="caption"></div>
+    <img class="modal-content" id="img01">
+  </div>
+    </div>
+  <footer>
+    <div id=footline></div>
+  </footer>
+</body>
+<script>
+var modal = document.getElementById('myModal');
+
+
+var img = document.getElementById('evite');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('flyer');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('infoone');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('infotwo');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('poster');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('brochure');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('brochure2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('brochure3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+</html>
