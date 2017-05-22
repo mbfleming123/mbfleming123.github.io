@@ -394,6 +394,11 @@ li {
   width: 770px;
 }
 
+#inside12 {
+  position: relative;
+  left: 120px;
+}
+
 #dsamps {
   position: relative;
   display: block;
