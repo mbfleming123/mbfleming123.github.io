@@ -361,7 +361,7 @@ li {
   font-size: 20px;
   border-bottom: solid 20px grey;
   z-index: 10;
-  width: 770px;
+  width: 777px;
 }
 
 #readwrite {
@@ -371,7 +371,7 @@ li {
   font-size: 20px;
   border-top: : solid 20px grey;
   z-index: 10;
-  width: 770px;
+  width: 777px;
 }
 
 #featuretwo {
@@ -391,7 +391,7 @@ li {
   font-size: 20px;
   border-bottom: solid 20px grey;
   z-index: 10;
-  width: 770px;
+  width: 777px;
 }
 
 #inside12 {
@@ -486,7 +486,7 @@ a {
     color: rgb(105, 162, 253);
 }
 
-#mandp {
+#print {
   color: rgb(105, 162, 253);
 }
 
