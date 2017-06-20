@@ -76,7 +76,7 @@ li {
   height: 600px;
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: rgb(198,232,253);
+  background-color: rgb(160,165,124);
   font-family: "Crushed", sans-serif;
   text-align: center;
   top: 0px;
@@ -347,8 +347,7 @@ li {
 }
 .ui-tabs .ui-tabs-panel {
 	display: inline-block;
-  width: 80%;
-  min-width: 800px;
+  width: 800px;
   position: relative;
   left: 7%;
   bottom: 15px;
@@ -491,7 +490,7 @@ li {
   width: 83%;
   height: 1205px;
   background-color: white;
-  min-width: 850px;
+  min-width: 800px;
 }
 
 #flyerholder {
@@ -664,8 +663,9 @@ a {
 
 #photo {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height:400px;
+    right: 25px;
     margin:: 30px;
     padding: 20px;
     position: relative;
@@ -697,7 +697,7 @@ img {
 
 #aboutbody {
     position: relative;
-    left: 67px;
+    left: 10%;
     width: 835px;
     height: 1000px;
     background-color: white;
