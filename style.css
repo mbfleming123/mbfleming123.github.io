@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   font-family: "Crushed", sans-serif;
-  font-size: 55px;
+  font-size: 5.8vw;
   position: relative;
   top: 25px;
   left: 67px;
@@ -452,13 +452,10 @@ li {
 }
 
 #rescont {
-  width: 845px;
-  height:1945px;
-  font-family: "Open Sans", sans-serif;
-  background-color: white;
+  width: 75%;
+  height: 70%;
   position: relative;
-  left: 70px;
-  padding:15px;
+  left: 65px;
 }
 
 #backimg {
@@ -568,15 +565,6 @@ a {
 
 #print {
   color: rgb(85,106,67);
-}
-
-#mand {
-  color: rgb(85,106,67);
-  font-family: "Open Sans" , sans-serif;
-  font-size: 19px;
-  position: relative;
-  left: 53px;
-  bottom: 57px;
 }
 
 #dsamps {
@@ -695,13 +683,21 @@ img {
   border: none;
 }
 
-#aboutbody {
-    position: relative;
-    left: 10%;
-    width: 835px;
-    height: 1000px;
-    background-color: white;
-  }
+#intro {
+  width: 75%;
+  height: 70%;
+  position: relative;
+  left: 28px;
+}
+
+#mand {
+  color: rgb(85,106,67);
+  font-family: "Open Sans" , sans-serif;
+  font-size: 19px;
+  position: relative;
+  left: 100px;
+  bottom: 95px;
+}
 
 #myself {
   position: relative;
