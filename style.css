@@ -59,7 +59,7 @@ h3 {
 
 h5 {
   font-size: 18px;
-  color: rgb(85,106,67);
+  color: rgb(73,120,142);
 }
 h6 {
   font-size: 15px;
@@ -76,7 +76,7 @@ li {
   height: 600px;
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: rgb(160,165,124);
+  background-color: rgb(73,120,142);
   font-family: "Crushed", sans-serif;
   text-align: center;
   top: 0px;
@@ -137,7 +137,7 @@ li {
       width: 100%;
       margin-left: 0px;
       margin-right: 6px;
-      color: rgb(85,106,67);
+      color: rgb(73,120,142);
     }
 
   nav a {
@@ -333,7 +333,7 @@ li {
 	margin-bottom: -1px;
 	padding-bottom: 1px;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(85,106,67);
+  background-color: rgb(73,120,142);
   color: black;
 }
 
@@ -354,7 +354,7 @@ li {
 	border-width: 0;
 	padding: 1em 1.4em;
 	background: none;
-  background-color: rgb(85,106,67);
+  background-color: rgb(73,120,142);
   z-index: 10;
 }
 
@@ -383,7 +383,7 @@ li {
   padding:15px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  border-bottom: solid 20px rgb(85,106,67);
+  border-bottom: solid 20px rgb(73,120,142);
   z-index: 10;
   width: 777px;
 }
@@ -393,7 +393,7 @@ li {
   padding:15px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  border-top: solid 20px rgb(85,106,67);
+  border-top: solid 20px rgb(73,120,142);
   z-index: 10;
   width: 777px;
 }
@@ -405,7 +405,7 @@ li {
 
 #social2{
   position: relative;
-  border-top: solid 20px rgb(85,106,67);
+  border-top: solid 20px rgb(73,120,142);
 }
 
 #social12 {
@@ -413,7 +413,7 @@ li {
   padding:15px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  border-bottom: solid 20px rgb(85,106,67);
+  border-bottom: solid 20px rgb(73,120,142);
   z-index: 10;
   width: 777px;
 }
@@ -560,11 +560,11 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(85,106,67);
+    color: rgb(73,120,142);
 }
 
 #print {
-  color: rgb(85,106,67);
+  color: rgb(73,120,142);
 }
 
 #dsamps {
